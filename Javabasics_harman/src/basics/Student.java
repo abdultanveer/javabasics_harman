@@ -6,5 +6,11 @@ public class Student {
 	int age;   //4 bytes -- int
 	boolean isMale;  //1byte
 	String address;
+	
+	
+	void askQuestion() {
+		System.out.println("asking java questions");
+	}
+	void writeExam() {}
 
 }
