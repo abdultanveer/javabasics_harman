@@ -5,6 +5,7 @@ public class Demo {
 	public static void main(String[] args) {
 		int sum;
 		sum = aparnaAdd(10,20);   //10 & 20 are arguments
+		Student abdul;
 		System.out.println("the college name is"+ Student.COLLEGE_NAME);
 		
 		//System.out.println("the sum is --"+sum);

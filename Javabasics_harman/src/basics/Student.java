@@ -6,10 +6,17 @@ public class Student {
 	int age;   //4 bytes -- int
 	boolean isMale;  //1byte
 	String address;
-	static String COLLEGE_NAME = "IIT";   //static variable
+	static String COLLEGE_NAME;  //static variable
+	//COLLEGE_NAME = "IIT";
+	
+	
+	  static { System.out.println("static block invoked"); COLLEGE_NAME = "iit"; }
+	 
+	
 	//-------------------------------
 	public Student(){
 		System.out.println("default constructor--shreyas");
+		//COLLEGE_NAME = "IIT";
 	}
 
 	//----------------------------------
