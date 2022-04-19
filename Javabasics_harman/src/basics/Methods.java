@@ -12,10 +12,13 @@ public class Methods {
 		int num = scan.nextInt();  
 		//method calling  
 		findEvenOdd(num);
+		int[] scores = {10,20,30};
+		int scoresAverage = Student.calculateAverage(scores);
+		System.out.println(scoresAverage+"-- is the average");
+		
 	}
 
-	public static void findEvenOdd(int num)  
-	{  
+	public static void findEvenOdd(int num)  	{  
 		//method body  -- indented - ctrl+I
 		if(num%2==0)   
 			System.out.println(num+" is even");   
