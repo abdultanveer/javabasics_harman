@@ -8,4 +8,13 @@ public class Gst extends IncomeTax {
 		int gst = super.calculateTax(income, 2000);
 		return oldTax;
 	}
+	
+	
+	@Override //@Override-- i'll redefine this method here
+	int calculateTax(int income) {
+		
+		int oldTax = super.calculateTax(income);
+		int additionalTax = income/20;
+		return oldTax + additionalTax;
+	}
 }

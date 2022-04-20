@@ -1,16 +1,58 @@
 package basics;
 
 public class Student {
+	static String COLLEGE_NAME;  //static variable
 	//i'll create 5 partitions  -- instance variable
 	String name;
 	int age;   //4 bytes -- int
 	boolean isMale;  //1byte
 	String address;
-	static String COLLEGE_NAME;  //static variable
+	
+	
+	
+	
+	
+	
+	
+	
 	//COLLEGE_NAME = "IIT";
 	
 	
-	  static { System.out.println("static block invoked"); COLLEGE_NAME = "iit"; }
+	  public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public boolean isMale() {
+		return isMale;
+	}
+
+	public void setMale(boolean isMale) {
+		this.isMale = isMale;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	static { System.out.println("static block invoked");
+	  COLLEGE_NAME = "iit"; 
+	  }
 	 
 	
 	//-------------------------------

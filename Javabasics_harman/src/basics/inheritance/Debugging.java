@@ -11,9 +11,11 @@ public class Debugging {
 			summation = summation + add(i,i+5);
 			
 		}
+		System.out.println("after for loop");
 	}
 	
 	static int add(int a, int b) {
+		//20 lines of code -- only 3 lines
 		int avg = a+b/2;
 		return a+b;
 	}

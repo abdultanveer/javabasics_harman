@@ -5,7 +5,16 @@ public class Demo {
 	public static void main(String[] args) {
 		int sum;
 		sum = aparnaAdd(10,20);   //10 & 20 are arguments
-		Student abdul;
+		Student abdul; //declaration
+		abdul = new Student(); //instantiation
+		//abdul.name = "ansari"; //initialization
+		abdul.setName("ansari");
+		
+		int a; //declaration
+		a = 10; //initialization
+		
+		
+		
 		System.out.println("the college name is"+ Student.COLLEGE_NAME);
 		
 		//System.out.println("the sum is --"+sum);
