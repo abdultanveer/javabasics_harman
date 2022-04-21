@@ -10,7 +10,7 @@ public class ConaAppliances extends Programmer implements SwitchBoardListener{
 	public void switchOne() {
 		System.out.println("cona light is on");
 		Programmer programmer = new Programmer();
-		programmer.setAge(14);
+		//programmer.setAge(14);
 		/*
 		 * ConaAppliances conaAppliances = new ConaAppliances(); conaAppliances.age =
 		 * 14;

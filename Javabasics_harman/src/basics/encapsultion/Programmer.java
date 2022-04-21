@@ -25,7 +25,7 @@ public class Programmer {
 	public int getAge() {
 		return age;
 	}
-	public void setAge(int age) {
+	private void setAge(int age) {
 		String programmersDob = getDob();
 		this.age = age;
 	}
