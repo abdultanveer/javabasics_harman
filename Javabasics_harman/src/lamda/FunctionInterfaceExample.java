@@ -14,6 +14,10 @@ public class FunctionInterfaceExample {
 		Function<Integer, Integer> squareIt = (a) -> {return a*a;};
 		
 		System.out.println(squareIt.apply(9));
+		
+		Function<String, String> f1;
+		f1 = (name) -> {return "harman say hello to --"+ name;};
+		System.out.println(f1.apply("abdul"));
 				
 	}  
 } 

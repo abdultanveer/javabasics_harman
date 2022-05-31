@@ -1,5 +1,6 @@
 package basics.threads;
 
+//this is abdul
 public class NocProcess {
 	
 	public static void main(String[] args) {
